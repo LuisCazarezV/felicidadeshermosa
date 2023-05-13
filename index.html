@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feliz cumpleaños, [nombre de tu novia]!</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Feliz cumpleaños, [nombre de tu novia]!</h1>
+  <p>Deja un mensaje de felicitación:</p>
+  <form>
+    <label for="nombre">Tu nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+  <div id="mensajes">
+    <!-- Los mensajes se mostrarán aquí -->
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
